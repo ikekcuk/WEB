@@ -2,6 +2,7 @@
 <center>
 	<title>Safari</title>
 	<body>
+	        <meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<body background="http://elitefon.ru/images/201211/elitefon.ru_13994.jpg" background-size="100%"> </body>
 		<font face="impact" size="+4" color="white">Safari</font> 
         <br><img src="https://m1.behance.net/rendition/modules/125562149/disp/f560b3be738ea4e073885ba4c03242a4.png" width="128" height="128">
