@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Web-разработка</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+    	<center>
+		<font face="impact" size="+4" color="Red"> Добро пожаловать! </font>
+		<br>
+		<br>
+		<b>Введите данные:</b> 
+		<input id="User_Name" type="text" value="Имя"/>
+		<input id="Last_Name" type="text" value="Фамилия"/>
+		<input id="Button1" type="button" value="Готово" onclick="messagebox()"/>
+		<script>
+        	function messagebox() 
+			{
+	     	   var name = document.getElementById('User_Name');
+	     	   	   lastname = document.getElementById('Last_Name');
+	     	   	   alert("Привет, " + name.value + ' ' + lastname.value)   
+		 	   } 
+    	</script>
+		</center>
+	</body>
+<html>
