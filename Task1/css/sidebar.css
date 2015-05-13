@@ -1,0 +1,31 @@
+﻿ul.side {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #27ae60;
+    width: 210px;
+    background-color: #2ecc71;
+    float: left;
+}
+ul.side li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+ul.side li a {
+    display: block;
+    width: 180px;
+    border-bottom: 1px dotted #15190A;
+    margin: 0px 10px;
+    text-align: center;
+    color: #fff
+}
+ul.side li a:link,
+ul.side li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+ul.side li a:hover {
+    border-radius: 20px;
+    background-color: #27ae60;
+}
+

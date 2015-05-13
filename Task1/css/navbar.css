@@ -1,0 +1,32 @@
+﻿ul.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #27ae60;
+    width: auto;
+    background-color: #2ecc71;
+}
+ul.navbar li { 
+    display: inline; 
+
+}
+ul.navbar li a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+ul.navbar li a:hover {
+    border-radius: 20px;
+    background-color: #27ae60;
+}
+ul.navbar li ul.navbar-brand: { 
+    color: #ecf0f1;
+}
+ul.navbar li ul.navbar-brand:hover,
+ul.navbar li ul.navbar-brand:focus {
+    color: #d1ffed;
+}

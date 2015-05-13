@@ -1,0 +1,39 @@
+﻿header {
+    color: black;
+    text-align: center;
+}
+
+article {
+    display: block;
+    border: solid 1px black;
+    background: f0f000;
+    margin-left: 210px;
+    height: auto;
+}
+
+aside {
+    background: white;
+    color: dimgray;
+    text-align: left;
+    float: right;
+}
+
+textheader {
+    display: block;
+    background: lightgrey;
+    padding: 10px;
+    color: black;
+}
+text {
+    border : solid 1px black;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    float: right;
+    background: white;
+}
+div.foot{
+    background-color: white;
+    margin: 100px;
+    padding: 20px;
+}
