@@ -1,0 +1,165 @@
+﻿body	{
+	background-color: #e8f3f8;
+}
+
+.home{
+	position: absolute;
+	margin-left:10%;
+	top: 70%;
+	width: 250px;
+	height: 250px;
+	background: chocolate;
+}
+.grass{
+	position: absolute;
+	margin-left: 0%;
+	top: 100%;
+	width: 1300px;
+	height: 50px;
+    background: lawngreen;
+}
+.roof{
+    position: absolute;
+	margin-left: 8.25%;
+    top: 57.5%;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid peru;
+}
+.window { 
+    position: absolute; 
+    margin-left: 16%;
+    top: 80%;
+    width: 80px;
+    height: 80px;
+    background: yellow;
+}
+.chimney{
+	position: absolute;
+	margin-left: 12%;
+	top: 57.5%;
+	width: 30px;
+	height: 70px;
+	background: red;
+}
+.smoke1{
+	position: absolute;
+	margin-left:8%;
+	top: 49%;
+	width: 80px;
+	height: 30px;
+    background: lightgray;
+    border-radius: 50px;
+}
+.smoke2{
+	position: absolute;
+	margin-left:6%;
+	top: 43%;
+	width: 70px;
+    height: 30px;
+    background: lightgray;
+    border-radius: 50px;
+}
+.smoke3{
+	position: absolute;
+	margin-left:4%;
+	top: 37%;
+	width: 55px;
+    height: 30px;
+    background: lightgray;
+    border-radius: 50px;
+}
+.column {
+    position:absolute;
+    left:76.5%;
+    top:74%;
+    width: 20px;
+    height: 225px;
+    background: maroon;
+}
+.tree {
+	position:absolute;
+    left:70.5%;
+    top:50%;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid lime;
+}
+.tree2 {
+	position:absolute;
+    left:68.5%;
+    top:65%;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 200px solid lime;
+}
+.step1{
+	position: absolute;
+	margin-left: 27.3%;
+	top: 92.5%;
+	width: 60px;
+    height: 60px;
+    background: red;
+}
+.step2{
+	position: absolute;
+	margin-left: 31.4%;
+	top: 96%;
+	width: 40px;
+    height: 40px;
+    background: red;
+}
+.light1 {
+    position:absolute;
+    left:5%;
+    top:93%;
+    width: 20px;
+    height: 60px;
+    background: maroon;
+}
+.light2 {
+    position: absolute; 
+    margin-left: 4%;
+    top: 90%;
+    width: 30px;
+    height: 40px;
+    background: white;
+}
+.light3 {
+    position:absolute;
+    left:40%;
+    top:93%;
+    width: 20px;
+    height: 60px;
+    background: maroon;
+}
+.light4 {
+    position: absolute; 
+    margin-left: 39%;
+    top: 90%;
+    width: 30px;
+    height: 40px;
+    background: white;
+}
+.light5 {
+    position:absolute;
+    left:60%;
+    top:93%;
+    width: 20px;
+    height: 60px;
+    background: maroon;
+}
+.light6 {
+    position: absolute;
+    margin-left: 59%;
+    top: 90%;
+    width: 30px;
+    height: 40px;
+    background: white;
+}
