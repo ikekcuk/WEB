@@ -1,0 +1,32 @@
+.form {
+	background: #aae898;
+	width: 200px; 
+	height: 600px;
+    top: 1%;
+    left: 1150px;
+	position: absolute;
+}
+.button{
+	position: absolute;
+	left: 10px;
+	top: 40%;
+}
+.players {
+    position: absolute;
+    left: 10px;
+}
+.bugs{
+    position: absolute;
+    left: 10px;
+    top: 15%;
+}
+.pay{
+    position: absolute;
+    left: 10px;
+    top: 33%
+}
+.goButton {
+    position: absolute;
+	top: 80%;
+    left: 25%;
+}
