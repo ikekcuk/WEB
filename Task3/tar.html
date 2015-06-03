@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="tar.js"></script>
+    <title>HTML 5 Canvas - Rectangles</title>
+</head>
+<body>
+    <img id="bug" src="bug.jpg" />  POSITION
+
+    <section id="CanvasSection">
+        <canvas id="map" width="750" height="405" style="border:1px solid black"></canvas>
+    </section>
+    <section id="CanvasSection">
+        <canvas id="map1" width="750" height="60" style="border:5px solid red"></canvas>
+    </section>
+            <div style="float: left; width: 100%">
+                <div style="float: left; width: 20%">
+                    <h2>Игрок №1</h2>
+                    <form id="task1" name="task">
+                        <input id="checkbox11" name="group1" type="checkbox" value="1" />Ставка на таракана №1: <input type="text" id="b11" name="b11" /><br>
+                        <input id="checkbox12" name="group1" type="checkbox" value="2" />Ставка на таракана №2: <input type="text" id="b12" name="b12" /><br>
+                        <input id="checkbox13" name="group1" type="checkbox" value="3" />Ставка на таракана №3: <input type="text" id="b13" name="b13" /><br>
+                        <input id="checkbox14" name="group1" type="checkbox" value="4" />Ставка на таракана №4: <input type="text" id="b14" name="b14" /><br>
+                        <input type="button" value="Сделать ставку" onclick="get1();" />
+                    </form>
+                </div>
+                <div style="float: left; width: 20%">
+                    <h2>Игрок №2</h2>
+                    <form id="task2" name="task">
+                        <input id="checkbox21" name="group2" type="checkbox" value="1" />Ставка на таракана №1: <input type="text" id="b21" name="b21" /><br>
+                        <input id="checkbox22" name="group2" type="checkbox" value="2" />Ставка на таракана №2: <input type="text" id="b22" name="b22" /><br>
+                        <input id="checkbox23" name="group2" type="checkbox" value="3" />Ставка на таракана №3: <input type="text" id="b23" name="b23" /><br>
+                        <input id="checkbox24" name="group2" type="checkbox" value="4" />Ставка на таракана №4: <input type="text" id="b24" name="b24" /><br>
+                        <input type="button" value="Сделать ставку" onclick="get2();" />
+                    </form>
+                </div>
+                <div style="float: left; width: 20%">
+                    <h2>Игрок №3</h2>
+                    <form id="task3" name="task">
+                        <input id="checkbox31" name="group3" type="checkbox" value="1" />Ставка на таракана №1: <input type="text" id="b31" name="b31" /><br>
+                        <input id="checkbox32" name="group3" type="checkbox" value="2" />Ставка на таракана №2: <input type="text" id="b32" name="b32" /><br>
+                        <input id="checkbox33" name="group3" type="checkbox" value="3" />Ставка на таракана №3: <input type="text" id="b33" name="b33" /><br>
+                        <input id="checkbox34" name="group3" type="checkbox" value="4" />Ставка на таракана №4: <input type="text" id="b34" name="b34" /><br>
+                        <input type="button" value="Cделать ставку" onclick="get3();" />
+                    </form>
+                </div>
+                <div style="float: left; width: 20%">
+                    <h2>Управление игрой</h2>
+                    <form id="task5" name="but">
+                       Банк: <input type="text" id="bank" name="bank"/><br>
+                        <input type="button" value="Начать игру" onclick="play();" /><br>
+                        <input type="button" value="Результаты" onclick="result();" /><br>
+
+                    </form>
+                </div>
+                <div style="float: left; width: 20%">
+                    <h2>Выйгрыш</h2>
+                    <form id="task5" name="but">
+                        игрок1:<input type="text" id="pvin1" name="pvin1"><br>
+                        игрок2:<input type="text" id="pvin2" name="pvin2"><br>
+                        игрок3:<input type="text" id="pvin3" name="pvin3"><br>
+                    </form>
+                </div>
+
+            </div>
+            
+</body>
+</html>
